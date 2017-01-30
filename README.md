@@ -1,4 +1,4 @@
-# Filiosoft Dockerfiles - [Docker Hub](https://hub.docker.com/u/filiosoft[]/ )
+# Filiosoft Dockerfiles - [Docker Hub](https://hub.docker.com/u/filiosoft/)
 A repo full of Dockerfiles!
 
 * [AWS-CLI](aws-cli/) - [Docker Hub](https://hub.docker.com/r/filiosoft/aws-cli)
