@@ -13,7 +13,7 @@ docker pull filiosoft/jdk-node:latest
 
 ### Build from GitHub
 ```
-docker build -t filiosoft/jdk-node github.com/filiosoft/dockerfiles:jdk-node
+docker build -t filiosoft/jdk-node https://raw.githubusercontent.com/Filiosoft/dockerfiles/master/jdk-node/Dockerfile
 ```
 
 ### Run image
