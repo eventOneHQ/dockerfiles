@@ -3,7 +3,7 @@ MAINTAINER Filiosoft <Team@Filiosoft.com>
 
 ENV TOOLS_VERSION 25.2.3
 ENV TOOLS_ZIP "tools_r${TOOLS_VERSION}-linux.zip"
-ENV AP_FILE "https://gitlab.filiosoft.com/filiosoft/IAHE-Mobile/raw/master/installers/android-packages.txt"
+ENV AP_FILE "https://git.io/vDtRc"
 ENV ANDROID_HOME "/opt/android-sdk-linux"
 ENV PATH "${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools"
 
