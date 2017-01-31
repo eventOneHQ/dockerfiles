@@ -9,9 +9,10 @@ ENV ANDROID_HOME "/opt/android-sdk-linux"
 ENV PATH "${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools"
 
 RUN apt-get -qq update && \
-    apt-get -y --no-install-recommends install git unzip lib32stdc++6 lib32z1 && \
+    apt-get -y --no-install-recommends install lib32stdc++6 lib32z1 && \
     apt-get -y autoremove && \
-    apt-get -y autoclean
+    apt-get -y autoclean && \
+    rm -rf /var/lib/apt/lists/* 
 
 RUN curl -s -O https://dl.google.com/android/repository/${TOOLS_ZIP} && \
     unzip -q ${TOOLS_ZIP} -d ${ANDROID_HOME}

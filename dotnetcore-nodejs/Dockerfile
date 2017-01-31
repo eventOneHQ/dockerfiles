@@ -1,8 +1,8 @@
-FROM microsoft/dotnet
+FROM microsoft/dotnet:latest
 MAINTAINER Filiosoft Team <team@filiosoft.com>
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - 
-RUN apt-get install -y nodejs libssl-dev libffi-dev python-dev build-essential
+RUN apt-get install --no-install-recommends -y nodejs libssl-dev libffi-dev python-dev build-essential
 RUN curl -L https://aka.ms/InstallAzureCli | bash
 RUN npm i -g bower 
 

@@ -1,11 +1,17 @@
-FROM node:6.9-slim
+FROM node:6-alpine
 
-RUN apt-get -qq update && \
-    apt-get -y --no-install-recommends install g++ python make git wget && \
-    npm install -g pouchdb-server && \
-    apt-get -y purge g++ make python git && \
-    apt-get -y autoremove && \
-    apt-get -y autoclean
+RUN apk add --no-cache --virtual .build-deps \
+        binutils-gold \
+        curl \
+        g++ \
+        gcc \
+        gnupg \
+        libgcc \
+        linux-headers \
+        make \
+        python && \
+    npm install -g pouchdb-server -q && \
+    apk del .build-deps
 
 RUN mkdir /pouchdb
 
