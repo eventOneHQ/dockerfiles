@@ -1,8 +1,8 @@
 FROM filiosoft/jdk-node:latest
 MAINTAINER Filiosoft <Team@Filiosoft.com>
 
-ENV TOOLS_VERSION 25.2.3
-ENV TOOLS_ZIP "tools_r${TOOLS_VERSION}-linux.zip"
+ENV TOOLS_VERSION 3859397
+ENV TOOLS_ZIP "sdk-tools-linux-${TOOLS_VERSION}.zip"
 ENV AP_FILE "https://git.io/vDtRc"
 ENV AP_OUT "android_packages.txt"
 ENV ANDROID_HOME "/opt/android-sdk-linux"
