@@ -11,3 +11,5 @@ A repo full of Dockerfiles!
 * [MkDocs](mkdocs/) - [Docker Hub](https://hub.docker.com/r/filiosoft/mkdocs)
 * [MSBuild](msbuild/) - [Docker Hub](https://hub.docker.com/r/filiosoft/msbuild)
 * [PouchDB](pouchdb/) - [Docker Hub](https://hub.docker.com/r/filiosoft/pouchdb)
+* [Node-rsync](node-rsync/) - [Docker Hub](https://hub.docker.com/r/filiosoft/node-rsync)
+* [RVA-CLI](rva-cli/) - [Docker Hub](https://hub.docker.com/r/filiosoft/rva-cli)
