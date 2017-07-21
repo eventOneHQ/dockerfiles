@@ -2,7 +2,7 @@ FROM openjdk:8-jdk
 
 MAINTAINER Filiosoft, LLC <Team@Filiosoft.com>
 
-ENV NODE_VERSION 6
+ENV NODE_VERSION 8
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y apt-transport-https  && \

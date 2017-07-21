@@ -20,10 +20,9 @@ RUN apt-get -qq update && \
 RUN curl -s -O https://dl.google.com/android/repository/${TOOLS_ZIP} && \
     wget https://services.gradle.org/distributions/${GRADLE_ZIP} -q && \
     unzip -q ${TOOLS_ZIP} -d ${ANDROID_HOME} && \
-    unzip -q ${GRADLE_ZIP} -d ${GRADLE_HOME}
+    unzip -q ${GRADLE_ZIP} -d ${GRADLE_HOME} && \
+    rm -rf ${TOOLS_ZIP} ${AP_OUT} ${GRADLE_ZIP}
 
 RUN wget ${AP_FILE} -O ${AP_OUT} -q && \
-    echo y | sdkmanager --package_file=${AP_OUT}
-    
-RUN sdkmanager --list && \
-    rm -rf ${TOOLS_ZIP} ${AP_OUT} ${GRADLE_ZIP}
+    echo y | sdkmanager --package_file=${AP_OUT} && \ 
+    sdkmanager --list

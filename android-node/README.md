@@ -1,5 +1,5 @@
 # Android SDK with Node.js
-Android SDK 25 with Node.js 6 Image for e.g. GitLab CI Runners.
+Android SDK 26 with Node.js 8 Image for e.g. GitLab CI Runners.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/filiosoft/android-node.svg?style=flat-square)](https://hub.docker.com/r/filiosoft/android-node/)
 [![ImageLayer](https://badge.imagelayers.io/filiosoft/android-node:latest.svg)](https://imagelayers.io/?images=filiosoft/android-node:latest)

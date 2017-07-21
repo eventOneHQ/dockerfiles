@@ -1,5 +1,5 @@
 # JDK with Node.js
-Java JDK 8 with Node.js 6 Image for e.g. GitLab CI Runners.
+Java JDK 8 with Node.js 8 Image for e.g. GitLab CI Runners.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/filiosoft/jdk-node.svg?style=flat-square)](https://hub.docker.com/r/filiosoft/jdk-node/)
 [![ImageLayer](https://badge.imagelayers.io/filiosoft/jdk-node:latest.svg)](https://imagelayers.io/?images=filiosoft/jdk-node:latest)
