@@ -1,15 +1,17 @@
 # Filiosoft Dockerfiles - [Docker Hub](https://hub.docker.com/u/filiosoft/)
 A repo full of Dockerfiles!
 
-* [Android SDK with Node.js](android-node/) - [Docker Hub](https://hub.docker.com/r/filiosoft/android-node)
-* [AWS-CLI](aws-cli/) - [Docker Hub](https://hub.docker.com/r/filiosoft/aws-cli)
-* [Bower](bower/) - [Docker Hub](https://hub.docker.com/r/filiosoft/bower)
-* [.NET Core with Node.js](dotnetcore-nodejs/) - [Docker Hub](https://hub.docker.com/r/filiosoft/dotnetcore-nodejs)
+## WARNING: This repository is deprecated and will no longer be updated. Please checkout the [`docker` group](https://gitlab.filiosoft.com/docker) on the official Filiosoft GitLab. 
+
+* [Android SDK with Node.js](https://gitlab.filiosoft.com/docker/android-node/)
+* [AWS-CLI](https://gitlab.filiosoft.com/docker/aws-cli/)
+* [Bower](https://gitlab.filiosoft.com/docker/bower/)
+* [.NET Core with Node.js](https://gitlab.filiosoft.com/docker/dotnetcore-nodejs/)
 * [Fastlane](fastlane/) - [Docker Hub](https://hub.docker.com/r/filiosoft/fastlane)
-* [Git](git/) - [Docker Hub](https://hub.docker.com/r/filiosoft/git)
-* [JDK with Node.js](jdk-node/) - [Docker Hub](https://hub.docker.com/r/filiosoft/jdk-node)
-* [MkDocs](mkdocs/) - [Docker Hub](https://hub.docker.com/r/filiosoft/mkdocs)
+* [Git](https://gitlab.filiosoft.com/docker/git/)
+* [JDK with Node.js](https://gitlab.filiosoft.com/docker/jdk-node/)
+* [MkDocs](https://gitlab.filiosoft.com/docker/mkdocs/)
 * [MSBuild](msbuild/) - [Docker Hub](https://hub.docker.com/r/filiosoft/msbuild)
 * [PouchDB](pouchdb/) - [Docker Hub](https://hub.docker.com/r/filiosoft/pouchdb)
 * [Node-rsync](node-rsync/) - [Docker Hub](https://hub.docker.com/r/filiosoft/node-rsync)
-* [RVA-CLI](rva-cli/) - [Docker Hub](https://hub.docker.com/r/filiosoft/rva-cli)
+* [RVA-CLI](https://gitlab.filiosoft.com/docker/rva-cli/) - [Docker Hub](https://hub.docker.com/r/filiosoft/rva-cli)

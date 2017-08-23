@@ -1,5 +1,6 @@
 # Docker-Bower
 Bower Docker Image for e.g. GitLab CI Runners.
+## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://gitlab.filiosoft.com/docker/bower). 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/filiosoft/bower.svg?style=flat-square)](https://hub.docker.com/r/filiosoft/bower/)
 [![ImageLayer](https://badge.imagelayers.io/filiosoft/bower:latest.svg)](https://imagelayers.io/?images=filiosoft/bower:latest)
