@@ -1,7 +1,7 @@
 # dotnetcore-nodejs
 Microsoft's .NET Core image with Node.js 6 and Bower added! 
 
-## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://gitlab.filiosoft.com/docker/dotnetcore-node). 
+## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://developers.filiosoft.com/docker/dotnetcore-node). 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/filiosoft/dotnetcore-nodejs.svg?style=flat-square)](https://hub.docker.com/r/filiosoft/dotnetcore-nodejs/)
 [![ImageLayer](https://badge.imagelayers.io/filiosoft/dotnetcore-nodejs:latest.svg)](https://imagelayers.io/?images=filiosoft/dotnetcore-nodejs:latest)

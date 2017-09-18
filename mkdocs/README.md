@@ -4,7 +4,7 @@
 
 [MkDocs](http://www.mkdocs.org/) Docker image. 
 
-## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://gitlab.filiosoft.com/docker/mkdocs). 
+## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://developers.filiosoft.com/docker/mkdocs). 
 
 ### based on [python:alpine](https://hub.docker.com/_/python/)
 ----

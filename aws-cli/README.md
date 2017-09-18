@@ -3,7 +3,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/filiosoft/aws-cli.svg?style=flat-square)](https://hub.docker.com/r/filiosoft/aws-cli)
 
 [AWS-CLI](https://aws.amazon.com/cli/) Docker image. 
-## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://gitlab.filiosoft.com/docker/aws-cli). 
+## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://developers.filiosoft.com/docker/aws-cli). 
 ### based on [alpine:3.3](https://hub.docker.com/_/alpine/)
 ----
 ### Pull from Docker Hub

@@ -1,7 +1,7 @@
 # JDK with Node.js
 Java JDK 8 with Node.js 8 Image for e.g. GitLab CI Runners.
 
-## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://gitlab.filiosoft.com/docker/jdk-node). 
+## WARNING: This `Dockerfile` has been moved to the Filiosoft GitLab. You can find it [here](https://developers.filiosoft.com/docker/jdk-node). 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/filiosoft/jdk-node.svg?style=flat-square)](https://hub.docker.com/r/filiosoft/jdk-node/)
 [![ImageLayer](https://badge.imagelayers.io/filiosoft/jdk-node:latest.svg)](https://imagelayers.io/?images=filiosoft/jdk-node:latest)
